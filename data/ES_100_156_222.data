@@ -1,0 +1,17 @@
+V 10 14 LNTE 
+y
+V 11 7 STA 
+y
+H 13 5 AÑDE 
+y
+V 11 5 FLCA 
+y
+H 1 14 IO 
+y
+H 1 11 SE 
+y
+H 4 6 T
+y
+H 15 4 COBA 
+y
+h 1 1 @

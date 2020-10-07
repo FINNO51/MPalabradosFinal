@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="include" displayName="include" projectFiles="true">
+        <itemPath>../local/include/AnsiTerminal.h</itemPath>
+        <itemPath>include/bag.h</itemPath>
+        <itemPath>../local/include/language.h</itemPath>
+        <itemPath>include/mi_random.h</itemPath>
+        <itemPath>include/move.h</itemPath>
+        <itemPath>include/movelist.h</itemPath>
+        <itemPath>include/player.h</itemPath>
+        <itemPath>include/tiles.h</itemPath>
+        <itemPath>include/window.h</itemPath>
+        <itemPath>../local/include/wordlist.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <itemPath>src/bag.cpp</itemPath>
+        <itemPath>src/main.cpp</itemPath>
+        <itemPath>src/move.cpp</itemPath>
+        <itemPath>src/movelist.cpp</itemPath>
+        <itemPath>src/player.cpp</itemPath>
+        <itemPath>src/tiles.cpp</itemPath>
+        <itemPath>src/window.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>include</Elem>
+    <Elem>src</Elem>
+    <Elem>../local/include</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <commandlineTool>g++</commandlineTool>
+          <incDir>
+            <pElem>../local/include</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibFileItem>../local/lib/libansiterminal.a</linkerLibFileItem>
+            <linkerLibFileItem>../local/lib/liblanguage.a</linkerLibFileItem>
+            <linkerLibFileItem>../local/lib/libwordlist.a</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="../local/include/AnsiTerminal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../local/include/language.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../local/include/wordlist.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/bag.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mi_random.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/move.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/movelist.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/player.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/tiles.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/window.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/bag.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/move.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/movelist.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/player.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tiles.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/window.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="../local/include/AnsiTerminal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../local/include/language.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../local/include/wordlist.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/bag.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mi_random.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/move.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/movelist.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/player.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/tiles.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/window.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/bag.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/move.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/movelist.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/player.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tiles.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/window.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

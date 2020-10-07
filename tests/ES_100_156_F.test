@@ -1,0 +1,29 @@
+%%%CALL -open data/ES_100_0.match -save tests/.out.match < data/ES_100_0_156.data
+%%%FROMFILE tests/.out.match
+%%%VALGRIND
+%%%OUTPUT
+MPALABRADOS-V2
+156
+ES
+15 15
+. . . . . . . . . . . . R . . 
+. . . . . . . . A D O R A D . 
+. . . . . . M I M O . . J . . 
+. . . . . . O R O . D I A Z . 
+. . . . P O D E R . . . . . . 
+. . . P I S A . . . . . . . . 
+. . . . A . S U B E . . . . . 
+. . . U N . . . U . . S . . . 
+. . . . . . . L E C H E . . . 
+. . . . . C A E N . . X . . . 
+. . . . . . . E A . . O Y E N 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+
+7 ÑDELLNT
+35 STEACIAAISFCOOBETAQASUUVGHTGRELOENI
+19
+H 5 5 PODER V 3 7 MOAS V 2 9 AMO H 6 4 PIS H 4 8 R H 3 8 IO V 7 5 AN H 2 10 DORA H 2 14 D H 8 4 U V 1 13 RJA H 4 11 DIZ H 7 8 UBE V 8 9 UENA V 9 8 LEE H 9 10 CHE V 8 12 SXO H 10 6 CA H 11 13 YEN 
+0
